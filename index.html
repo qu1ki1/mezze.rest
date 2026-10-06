@@ -1,0 +1,228 @@
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Меззе — ресторан турецкой кухни в Тюмени</title>
+<meta name="description" content="Меззе — ресторан традиционной турецкой кухни в Тюмени: мезе, мангал, кебабы, стейки, пиде, лахмаджун. Бизнес-ланч 599 ₽, детская комната. 50 лет Октября, 63г.">
+<meta property="og:title" content="Меззе — ресторан турецкой кухни в Тюмени">
+<meta property="og:description" content="Мезе, кебабы, стейки, турецкие завтраки и бар. Тюмень, 50 лет Октября, 63г.">
+<meta property="og:image" content="img/hero.jpg">
+<script>
+  // анимации включаем только если нет reduced-motion; если библиотеки не загрузились — показываем всё как есть
+  (function(){var d=document.documentElement;
+    if(!matchMedia('(prefers-reduced-motion: reduce)').matches){d.classList.add('anim');
+      setTimeout(function(){if(!window.__mezzeReady)d.classList.remove('anim')},4000);}})();
+</script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;1,300&family=Manrope:wght@400;500;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"Restaurant","name":"Меззе","servesCuisine":"Турецкая","image":"img/hero.jpg",
+"address":{"@type":"PostalAddress","streetAddress":"ул. 50 лет Октября, 63г","addressLocality":"Тюмень","addressCountry":"RU"},
+"telephone":"+79581497201","openingHours":["Mo-Th,Su 11:00-23:00","Fr-Sa 11:00-01:00"]}
+</script>
+</head>
+<body>
+
+<header class="nav" id="nav">
+  <div class="nav-in">
+    <a href="#top" class="logo"><img src="img/logo.png" alt="Меззе"></a>
+    <nav class="nav-links">
+      <a href="#about">О нас</a>
+      <a href="#menu">Меню</a>
+      <a href="#lunch">Бизнес-ланч</a>
+      <a href="#kids">Детям</a>
+      <a href="#gallery">Галерея</a>
+      <a href="#contacts">Контакты</a>
+    </nav>
+    <div class="nav-right">
+      <a href="#menu" class="tlink">Меню</a>
+      <a href="tel:+79581497201" class="btn sm">Позвонить</a>
+    </div>
+  </div>
+</header>
+
+<main id="top">
+  <!-- HERO -->
+  <section class="hero">
+    <div class="tri" id="hero-tri">
+      <figure><img src="img/hero.jpg" alt="Зал ресторана Меззе с витражными лампами"></figure>
+      <figure><img src="img/hall-6.jpg" alt="Карта Турции из неона в зале"></figure>
+      <figure><img src="img/hall-2.jpg" alt="Столик у окна"></figure>
+    </div>
+    <div class="veil b"></div>
+    <div class="hero-in">
+      <span class="meta l cap fade-in">Тюмень</span>
+      <h1 class="h-xl split hero-title"><span>Турция</span><span>в одной тарелке</span></h1>
+      <span class="meta r cap fade-in">Традиционная<br>турецкая кухня</span>
+    </div>
+    <p class="hero-note fade-in">Мезе, мангал, стейки и пиде. Есть места, куда приходят поесть, а есть места, где собираются за одним столом.</p>
+    <aside class="hours-card fade-in">
+      <div class="cap muted"><span class="dot"></span>Ждём вас</div>
+      <div class="big">11:00–23:00</div>
+      <div class="row"><span class="cap muted">Пт, сб — до 01:00</span><span class="cap muted">50 лет Октября, 63г</span></div>
+      <a href="#contacts" class="btn">Забронировать стол</a>
+    </aside>
+  </section>
+
+  <!-- MARQUEE -->
+  <div class="marquee" aria-hidden="true">
+    <div class="marquee-track" id="marquee-track"></div>
+  </div>
+
+  <!-- ABOUT -->
+  <section class="sec parch" id="about">
+    <div class="sec-head">
+      <span class="cap fade">О нас</span>
+      <h2 class="h-lg split scrub">Там, где собираются за одним столом</h2>
+    </div>
+    <div class="about-grid">
+      <span></span>
+      <p class="fade">Делятся мезе, разговаривают, пробуют горячее прямо с огня и никуда не спешат. Именно таким мы создавали «Меззе». Рады видеть вас за нашим столом.</p>
+      <div class="col2 fade">
+        <p class="muted" style="margin-bottom:26px">Утром — турецкие завтраки, днём — бизнес-ланч, вечером — мангал, стейки и бар.</p>
+        <a href="#menu" class="btn">Смотреть меню</a>
+      </div>
+    </div>
+    <div class="about-facts">
+      <div class="fact fade"><div class="n">Мезе</div><p>Хайдари, хумус, баклажаны, авокадо с творожным сыром — с горячими лепёшками.</p></div>
+      <div class="fact fade"><div class="n">Мангал</div><p>Кебабы, баранина, кытыр-кебаб, стейки стриплойн и рибай.</p></div>
+      <div class="fact fade"><div class="n">Бар</div><p>Коктейли, глинтвейн, крафтовое пиво, лимонады и винная карта.</p></div>
+    </div>
+  </section>
+
+  <!-- CURTAIN 1 -->
+  <section class="curtain">
+    <div class="tri">
+      <figure><img loading="lazy" src="img/mezze-1.jpg" alt="Ассорти мезе"></figure>
+      <figure><img loading="lazy" src="img/mezze-3.jpg" alt="Мезе и лепёшки"></figure>
+      <figure><img loading="lazy" src="img/mezze-2.jpg" alt="Мезе из нута"></figure>
+    </div>
+    <div class="veil"></div><div class="shade"></div>
+    <div class="curtain-in">
+      <div>
+        <span class="cap">Закуски</span>
+        <h2 class="h-xl split" style="margin-top:14px">Мезе</h2>
+      </div>
+      <div>
+        <p>Несколько разных вкусов, которые хочется пробовать, сочетать с лепёшками и делить за одним столом.</p>
+        <a href="#menu" class="btn light" data-tab="mezze">Открыть раздел</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- MENU -->
+  <section class="sec parch" id="menu">
+    <div class="sec-head">
+      <span class="cap fade">Меню</span>
+      <h2 class="h-lg split scrub">Меню</h2>
+    </div>
+    <div class="tabs" role="tablist" id="tabs"></div>
+    <div id="panels"></div>
+    <div class="dl">
+      <a href="menu.pdf" download class="btn">Скачать меню в PDF</a>
+      <span class="cap muted">Цены в рублях. Меню и цены могут меняться — уточняйте у администратора.</span>
+    </div>
+  </section>
+
+  <!-- CURTAIN 2 -->
+  <section class="curtain">
+    <div class="tri">
+      <figure><img loading="lazy" src="img/chef.jpg" alt="Шеф разделывает мраморную говядину"></figure>
+      <figure><img loading="lazy" src="img/grill.jpg" alt="Стейк на гриле"></figure>
+      <figure><img loading="lazy" src="img/wine.jpg" alt="Винный шкаф"></figure>
+    </div>
+    <div class="veil"></div><div class="shade"></div>
+    <div class="curtain-in">
+      <div>
+        <span class="cap">Огонь и бар</span>
+        <h2 class="h-xl split" style="margin-top:14px">Мангал</h2>
+      </div>
+      <div>
+        <p>Кебабы, баранина, кытыр-кебаб, стейки стриплойн и рибай. А к ним — коктейли и вино.</p>
+        <a href="#menu" class="btn light" data-tab="mangal">Открыть раздел</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- LUNCH -->
+  <section class="sec parch" id="lunch">
+    <div class="sec-head">
+      <span class="cap fade">Пн–пт, 11:00–16:00</span>
+      <h2 class="h-lg split scrub">Бизнес-ланч в Турции</h2>
+    </div>
+    <div class="lunch">
+      <div class="l-card fade">
+        <div class="top"><span class="cap">Комбо</span><span class="price">599 ₽</span></div>
+        <div class="l-row"><b>Салат</b><span>пияз / турецкий</span></div>
+        <div class="l-row"><b>Суп</b><span>сырный крем-суп / кюфта шурпа</span></div>
+        <div class="l-row"><b>Горячее</b><span>кефте куриная с сыром / мини-люля «Адана»</span></div>
+        <div class="l-row"><b>Гарнир</b><span>гречка с грибами / картофельные дольки</span></div>
+        <div class="l-row" style="border-bottom:0"><b>Напиток</b><span>морс, 200 мл</span></div>
+      </div>
+      <div class="txt fade">
+        <h3 class="h-sm">Вкусно, сытно и без долгого ожидания</h3>
+        <p>Полноценный комплекс: салат, суп, горячее, гарнир и морс. К ланчу можно добавить мини-пиде, мини-хачапури, пахлаву, кофе.</p>
+        <button class="btn" data-open="lunch">Меню ланча</button>
+      </div>
+      <div class="poster fade"><img loading="lazy" src="img/lunch-poster.jpg" alt="Бизнес-ланч в Турции" data-lb="lunch"></div>
+    </div>
+  </section>
+
+  <!-- KIDS -->
+  <section class="sec linen" id="kids">
+    <div class="sec-head">
+      <span class="cap fade">Для семей</span>
+      <h2 class="h-lg split scrub">Детская комната</h2>
+    </div>
+    <p class="fade" style="margin:36px 0 0 228px;max-width:420px">Пока взрослые наслаждаются ужином, у малышей — свой уютный уголок с игрушками, домиком и паровозиком.</p>
+    <div class="kids-grid" id="kids-grid"></div>
+  </section>
+
+  <!-- GALLERY -->
+  <section class="sec parch" id="gallery">
+    <div class="sec-head">
+      <span class="cap fade">Атмосфера</span>
+      <h2 class="h-lg split scrub">Красный бархат, золото и вечерний свет</h2>
+    </div>
+    <div class="masonry" id="masonry"></div>
+  </section>
+</main>
+
+<!-- CONTACTS / FOOTER -->
+<footer class="foot on-dark" id="contacts">
+  <div class="sec-head" style="display:grid;grid-template-columns:200px 1fr;gap:28px">
+    <span class="cap fade" style="padding-top:10px">Контакты</span>
+    <h2 class="h-lg split scrub">Приходите пробовать</h2>
+  </div>
+  <div class="contacts">
+    <span></span>
+    <div class="fade"><h3>Адрес</h3><p>г. Тюмень,<br>ул. 50 лет Октября, 63г</p><p style="margin-top:12px"><a class="tlink" href="https://yandex.ru/maps/?text=%D0%A2%D1%8E%D0%BC%D0%B5%D0%BD%D1%8C%2C%2050%20%D0%BB%D0%B5%D1%82%20%D0%9E%D0%BA%D1%82%D1%8F%D0%B1%D1%80%D1%8F%2C%2063%D0%B3" target="_blank" rel="noopener">Маршрут</a></p></div>
+    <div class="fade"><h3>Часы работы</h3><p>Вс–Чт 11:00–23:00<br>Пт, сб 11:00–01:00</p></div>
+    <div class="fade"><h3>Телефоны</h3><a class="ph" href="tel:+79581497201">+7 (958) 149-72-01</a><a class="ph" href="tel:+73452393780">8 (3452) 39-37-80</a></div>
+    <div class="fade"><h3>Мы в сети</h3><p><a href="https://vk.ru/mezze.rest" target="_blank" rel="noopener">ВКонтакте</a><br><a href="https://www.instagram.com/mezze.rest/" target="_blank" rel="noopener">Instagram</a><br><a href="https://t.me/mezze_tmn" target="_blank" rel="noopener">Telegram</a></p></div>
+  </div>
+  <div class="map fade">
+    <iframe loading="lazy" title="Карта" src="https://yandex.ru/map-widget/v1/?text=%D0%A2%D1%8E%D0%BC%D0%B5%D0%BD%D1%8C%2C%2050%20%D0%BB%D0%B5%D1%82%20%D0%9E%D0%BA%D1%82%D1%8F%D0%B1%D1%80%D1%8F%2C%2063%D0%B3&z=16"></iframe>
+  </div>
+  <div class="wordmark"><img class="wm-logo" src="img/logo.png" alt="Меззе"><img class="wm-tag" src="img/tagline.png" alt="Традиционная турецкая кухня"></div>
+  <div class="legal cap"><span>© Меззе · Ресторан турецкой кухни · Тюмень</span><a class="tlink" href="#top">Наверх ↑</a></div>
+</footer>
+
+<div class="lb" id="lb" hidden data-lenis-prevent>
+  <button class="x" aria-label="Закрыть">×</button>
+  <button class="pv" aria-label="Назад">‹</button>
+  <img id="lb-img" alt="">
+  <button class="nx" aria-label="Вперёд">›</button>
+  <div class="ct" id="lb-ct"></div>
+</div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@studio-freight/lenis@1.0.42/dist/lenis.min.js"></script>
+<script src="https://unpkg.com/split-type@0.3.4"></script>
+<script src="script.js"></script>
+</body>
+</html>

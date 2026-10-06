@@ -317,7 +317,6 @@ function initMotion() {
   $('.hero-title').style.visibility = 'visible';
   gsap.from(heroSplit.chars, { yPercent: 110, opacity: 0, duration: 1.3, ease: EASE, stagger: .07, delay: .6 });
   gsap.from('.hero .fade-in', { opacity: 0, y: 16, duration: 1, ease: EASE, stagger: .15, delay: 1.6 });
-  gsap.from(nav, { opacity: 0, y: -20, duration: 1, ease: EASE, delay: 1.2 });
 
   // заголовки: буквы проявляются по мере прокрутки
   $$('.scrub').forEach(el => {

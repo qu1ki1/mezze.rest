@@ -41,6 +41,8 @@ button{font:inherit;color:inherit;letter-spacing:inherit;background:none;border:
 
 /* nav */
 .nav{position:fixed;inset:0 0 auto 0;z-index:30;color:var(--parchment);border-bottom:1px solid transparent;transition:transform .45s var(--ease),background-color .45s var(--ease),backdrop-filter .45s var(--ease),border-color .45s var(--ease)}
+.anim .nav{animation:navIn 1s .9s both var(--ease)}
+@keyframes navIn{from{opacity:0}to{opacity:1}}
 .nav.solid{background:rgba(44,44,44,.88);backdrop-filter:blur(10px);-webkit-backdrop-filter:blur(10px);border-color:rgba(216,203,184,.18)}
 .nav.hide{transform:translateY(-100%)}
 .nav-in{display:flex;align-items:center;gap:36px;padding:0 28px;height:68px}
